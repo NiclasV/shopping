@@ -1,0 +1,177 @@
+$btnColor: #5e8c5b;
+
+body {
+  background: url("../img/bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0 auto;
+  color: #FFFFFF;
+  padding: 0 auto;
+}
+
+nav {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5px;
+  //border: 1px solid red;
+}
+
+.logotype {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 6em;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+    img {
+      width: 100%;
+      height: auto;
+      margin: 20px 0 0 0;
+    }
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+  //border: 1px solid green;
+}
+
+.produktbild{
+  margin: 10px 0 10px 0;
+  width: 80%;
+  height: auto;
+}
+h1 {
+  font-family: 'Antic slab', serif;
+  font-size: 2.2em;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0px 0 30px 0;
+}
+
+h2 {
+  font-family: 'Antic slab', serif;
+  font-size: 1.5em;
+  color: $btnColor;
+  text-align: center;
+  margin: 0px 0 30px 0;
+}
+
+.produktsortiment{
+  max-width: 960px;
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  //border: 1px solid blue;
+  margin-bottom: 30px;
+}
+
+.your-order {
+  width: 100%;
+  color: #FFFFFF;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.produkt{
+  width: 20%;
+  text-align: center;
+  margin: 0 0 25px 0;
+  background: #FFFFFF;
+  padding: 15px;
+  color: #000000;
+}
+
+.kontaktuppgifter{
+  max-width: 960px;
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  //border: 1px solid blue;
+  margin-bottom: 10px;
+}
+
+.kontakt-flex{
+  //border: 2px solid purple;
+  width: 48%;
+  min-height: 150px;
+  color: #FFFFFF;
+  font-family: 'antic slab', serif;
+  font-size: 1.5em;
+}
+
+input {
+  margin: 0 auto;
+  padding: 3px;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  font-family: 'antic slab', serif;
+  font-size: 0.7em;
+}
+
+input[type=number] {
+  font-size: 1.2em;
+  width: 60%;
+  height: 25px;
+}
+
+input[type=submit] {
+  width: 100%;
+  height: 50px;
+  background: $btnColor;
+  border: 0px;
+  font-family: 'antic slab', serif;
+  font-size: 1.5em;
+  color: #FFFFFF;
+}
+
+p {
+  margin: 5px 0 5px 0;
+}
+
+.price {
+  font-family: 'antic slab', serif;
+  font-size: 1.4em;
+}
+
+.name{
+  font-family: 'antic slab', serif;
+  font-size: 1.4em;
+}
+
+.color {
+  font-family: 'antic slab', serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.tack {
+  font-family: 'Antic slab', serif;
+  font-size: 3em;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.adress {
+  font-family: 'Antic slab', serif;
+  font-size: 1.2em;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.total {
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid purple;
+}
